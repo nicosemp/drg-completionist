@@ -38,11 +38,7 @@ export default function OverclockIcon(props: { overclock: Overclock }) {
             left: '50%',
           }}
         >
-          <Image
-            alt={iconName}
-            src={icon}
-            style={{ height: 'auto', width: 'auto' }}
-          />
+          <Image alt={iconName} src={icon} style={{ height: 48, width: 48 }} />
         </div>
       </div>
     </div>
