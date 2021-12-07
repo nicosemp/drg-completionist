@@ -9,6 +9,8 @@ import _GrenadeLauncher from './GrenadeLauncher.png';
 import _GrenadeLauncher_webp from './GrenadeLauncher.png.webp';
 import _Shotgun from './Shotgun.png';
 import _Shotgun_webp from './Shotgun.png.webp';
+import _SmartRifle from './SmartRifle.png';
+import _SmartRifle_webp from './SmartRifle.png.webp';
 import _StubbySMG from './StubbySMG.png';
 import _StubbySMG_webp from './StubbySMG.png.webp';
 export const BreachCutter = { png: _BreachCutter, webp: _BreachCutter_webp };
@@ -17,4 +19,5 @@ export const GrenadeLauncher = {
   webp: _GrenadeLauncher_webp,
 };
 export const Shotgun = { png: _Shotgun, webp: _Shotgun_webp };
+export const SmartRifle = { png: _SmartRifle, webp: _SmartRifle_webp };
 export const StubbySMG = { png: _StubbySMG, webp: _StubbySMG_webp };
