@@ -51,6 +51,15 @@ export const FrameworkIDs: Record<
     Neonband: 'D564D9A2F5E55D43BAF522106E744E24',
     'Scale Brigade': '48889CAF94F90C468BDDB5E5A167E8E6',
   },
+  // TODO: Get GUIDS for Frameworks
+  'Corrosive Sludge Pump': {
+    'Custom Engineered': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Fourth Relic': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Glyphid Trophy Hunter': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    Mechanized: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    Neonband: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Scale Brigade': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+  },
   'Experimental Plasma Charger': {
     'Custom Engineered': 'EE480DDC1244BD44877088FF4644D7E6',
     'Fourth Relic': 'F73F5589741A4941ADEA507F8BF6A593',
@@ -76,6 +85,15 @@ export const FrameworkIDs: Record<
     Mechanized: '6460F3804380CD419FA5A075C9443C93',
     Neonband: '452ECFF8CE9F0B4688BF32A39B93E8F5',
     'Scale Brigade': 'FB15FF69ACD72C4C8F24EBA1380A5F9E',
+  },
+  // TODO: Get GUIDS for Frameworks
+  'LOK-1 Smart Rifle': {
+    'Custom Engineered': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Fourth Relic': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Glyphid Trophy Hunter': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    Mechanized: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    Neonband: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Scale Brigade': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
   },
   'Deepcore 40mm PGL': {
     'Custom Engineered': '44C16DFD4FD8A44FAAE0660320381ECD',
@@ -111,6 +129,15 @@ export const FrameworkIDs: Record<
     Neonband: '0FDB13F692F5004D99BF78E2FA909760',
     'Scale Brigade': '6370AA7A90FCCB4CBD3728CBADD34CC1',
   },
+  // TODO: Get GUIDS for Frameworks
+  '"Hurricane" Guided Rocket System': {
+    'Custom Engineered': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Fourth Relic': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Glyphid Trophy Hunter': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    Mechanized: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    Neonband: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Scale Brigade': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+  },
   '"Bulldog" Heavy Revolver': {
     'Custom Engineered': '81AC1795976B4247BAFC9DB6AEC37E49',
     'Fourth Relic': '0A3DA1FAEE768B46A1A6B327EBF92ACF',
@@ -144,6 +171,15 @@ export const FrameworkIDs: Record<
     Mechanized: 'D1E6565E4E08854EA4E61DE77813B0CA',
     Neonband: 'D5B515BFE3D0264A9B9F2E2326F28A3E',
     'Scale Brigade': '72FB0FEB09A98D47A06D433ECEFEC097',
+  },
+  // TODO: Get GUIDS for Frameworks
+  'DRAK-25 Plasma Carbine': {
+    'Custom Engineered': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Fourth Relic': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Glyphid Trophy Hunter': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    Mechanized: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    Neonband: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+    'Scale Brigade': 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
   },
   'Jury-Rigged Boomstick': {
     'Custom Engineered': 'F7A49F42665667418F0AEDE9843A8331',
