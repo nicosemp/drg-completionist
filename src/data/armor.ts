@@ -135,8 +135,7 @@ export const CommonArmorPaintjobIcons: Record<
   'Black Crag': PaintjobIconSrcs.AllClass.BlackCrag,
   'Toxic Defender': PaintjobIconSrcs.AllClass.ToxicDefender,
   'Regal Aegis': PaintjobIconSrcs.AllClass.RegalAegis,
-  // TODO: Fix Scale Brigade's icon SRC below once script is run again.
-  'Scale Brigade': PaintjobIconSrcs.AllClass.RegalAegis,
+  'Scale Brigade': PaintjobIconSrcs.AllClass.ScaleBrigade,
 } as const;
 
 type ItemSource = 'Assignment' | 'Lost Pack' | 'Mastery' | 'DLC';
