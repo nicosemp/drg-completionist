@@ -255,7 +255,7 @@ export const Overclocks: Overclocks = {
       {
         name: 'Hydrogen Ion Additive',
         id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
-        icon: 'Explosion', // TODO: Add Acid Icon
+        icon: 'Acid',
         type: 'Clean',
         price: {
           credits: 8800,
@@ -356,7 +356,7 @@ export const Overclocks: Overclocks = {
       {
         name: 'Sludge Blast',
         id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
-        icon: 'ShotgunPellet', // TODO: Get Shotgun Blast Icon
+        icon: 'ShotgunBlast',
         type: 'Unstable',
         price: {
           credits: 8200,
@@ -831,7 +831,7 @@ export const Overclocks: Overclocks = {
       {
         name: 'Armor Break Module',
         id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
-        icon: 'Special', // TODO: Add Armor Break Icon
+        icon: 'ArmorBreaking',
         type: 'Clean',
         price: {
           credits: 7850,
@@ -885,7 +885,7 @@ export const Overclocks: Overclocks = {
       {
         name: 'Executioner',
         id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
-        icon: 'Aim', //TODO: Get Weakspot icon
+        icon: 'Weakspot',
         type: 'Unstable',
         price: {
           credits: 8750,
@@ -906,7 +906,7 @@ export const Overclocks: Overclocks = {
       {
         name: 'Neuro-Lasso',
         id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
-        icon: 'Slowdown',
+        icon: 'Sticky',
         type: 'Unstable',
         price: {
           credits: 8950,
@@ -1473,7 +1473,7 @@ export const Overclocks: Overclocks = {
       {
         name: 'Plasma Burster Missiles',
         id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
-        icon: 'Distance', // TODO: Get Bullet Penetration Icon
+        icon: 'BulletPenetration',
         type: 'Balanced',
         price: {
           credits: 8500,
@@ -1542,7 +1542,7 @@ export const Overclocks: Overclocks = {
       {
         name: 'Salvo Module',
         id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
-        icon: 'ShotgunPellet', // TODO: Get Shotgun Blast Icon
+        icon: 'ShotgunBlast',
         type: 'Unstable',
         price: {
           credits: 8650,
@@ -2154,7 +2154,7 @@ export const Overclocks: Overclocks = {
       {
         name: 'Shield Battery Booster',
         id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
-        icon: 'Damage', // TODO: Get Shield Boost Icon
+        icon: 'Resistance',
         type: 'Unstable',
         price: {
           credits: 8850,

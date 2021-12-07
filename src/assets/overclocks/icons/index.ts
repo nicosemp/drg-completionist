@@ -3,6 +3,8 @@
  * To update it, run `yarn update-assets` in the project root.
  */
 
+import _Acid from './acid.png';
+import _Acid_webp from './acid.png.webp';
 import _Aim from './aim.png';
 import _Aim_webp from './aim.png.webp';
 import _Ammo from './ammo.png';
@@ -11,6 +13,10 @@ import _Area from './area.png';
 import _Area_webp from './area.png.webp';
 import _AreaDamage from './areaDamage.png';
 import _AreaDamage_webp from './areaDamage.png.webp';
+import _ArmorBreaking from './armorBreaking.png';
+import _ArmorBreaking_webp from './armorBreaking.png.webp';
+import _BulletPenetration from './bulletPenetration.png';
+import _BulletPenetration_webp from './bulletPenetration.png.webp';
 import _Chance from './chance.png';
 import _Chance_webp from './chance.png.webp';
 import _ChargeUp from './chargeUp.png';
@@ -51,8 +57,12 @@ import _ProjectileSpeed from './projectileSpeed.png';
 import _ProjectileSpeed_webp from './projectileSpeed.png.webp';
 import _ReloadSpeed from './reloadSpeed.png';
 import _ReloadSpeed_webp from './reloadSpeed.png.webp';
+import _Resistance from './resistance.png';
+import _Resistance_webp from './resistance.png.webp';
 import _Ricochet from './ricochet.png';
 import _Ricochet_webp from './ricochet.png.webp';
+import _ShotgunBlast from './shotgunBlast.png';
+import _ShotgunBlast_webp from './shotgunBlast.png.webp';
 import _ShotgunJump from './shotgunJump.png';
 import _ShotgunJump_webp from './shotgunJump.png.webp';
 import _ShotgunPellet from './shotgunPellet.png';
@@ -67,12 +77,22 @@ import _SpecialMagazine from './specialMagazine.png';
 import _SpecialMagazine_webp from './specialMagazine.png.webp';
 import _SpinningLinecutter from './spinningLinecutter.png';
 import _SpinningLinecutter_webp from './spinningLinecutter.png.webp';
+import _Sticky from './sticky.png';
+import _Sticky_webp from './sticky.png.webp';
 import _Stun from './stun.png';
 import _Stun_webp from './stun.png.webp';
+import _Weakspot from './weakspot.png';
+import _Weakspot_webp from './weakspot.png.webp';
+export const Acid = { png: _Acid, webp: _Acid_webp };
 export const Aim = { png: _Aim, webp: _Aim_webp };
 export const Ammo = { png: _Ammo, webp: _Ammo_webp };
 export const Area = { png: _Area, webp: _Area_webp };
 export const AreaDamage = { png: _AreaDamage, webp: _AreaDamage_webp };
+export const ArmorBreaking = { png: _ArmorBreaking, webp: _ArmorBreaking_webp };
+export const BulletPenetration = {
+  png: _BulletPenetration,
+  webp: _BulletPenetration_webp,
+};
 export const Chance = { png: _Chance, webp: _Chance_webp };
 export const ChargeUp = { png: _ChargeUp, webp: _ChargeUp_webp };
 export const ClipSize = { png: _ClipSize, webp: _ClipSize_webp };
@@ -102,7 +122,9 @@ export const ProjectileSpeed = {
   webp: _ProjectileSpeed_webp,
 };
 export const ReloadSpeed = { png: _ReloadSpeed, webp: _ReloadSpeed_webp };
+export const Resistance = { png: _Resistance, webp: _Resistance_webp };
 export const Ricochet = { png: _Ricochet, webp: _Ricochet_webp };
+export const ShotgunBlast = { png: _ShotgunBlast, webp: _ShotgunBlast_webp };
 export const ShotgunJump = { png: _ShotgunJump, webp: _ShotgunJump_webp };
 export const ShotgunPellet = { png: _ShotgunPellet, webp: _ShotgunPellet_webp };
 export const Slowdown = { png: _Slowdown, webp: _Slowdown_webp };
@@ -116,4 +138,6 @@ export const SpinningLinecutter = {
   png: _SpinningLinecutter,
   webp: _SpinningLinecutter_webp,
 };
+export const Sticky = { png: _Sticky, webp: _Sticky_webp };
 export const Stun = { png: _Stun, webp: _Stun_webp };
+export const Weakspot = { png: _Weakspot, webp: _Weakspot_webp };
