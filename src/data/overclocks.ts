@@ -251,6 +251,133 @@ export const Overclocks: Overclocks = {
           'Pressing the reload button shoots all the cryofuel in the chamber at once as an AoE cryo-projectile. Besides the very large amount of fuel consumed, the operation overloads the whole system, resulting in a much longer delay before regaining pressure, and the modifications restrict the total amount of fuel you can carry.',
       },
     ],
+    'Corrosive Sludge Pump': [
+      {
+        name: 'Hydrogen Ion Additive',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Explosion', // TODO: Add Acid Icon
+        type: 'Clean',
+        price: {
+          credits: 8800,
+          bismor: 135,
+          enorPearl: 100,
+          umanite: 70,
+        },
+        effects: {
+          buffs: [
+            '+0.5 Direct Hit Corrosive Damage',
+            '+15% Direct Hit Corrosive Slowdown',
+          ],
+          nerfs: [],
+        },
+        description:
+          'An experimental additive that activates on impact and gives a small improvement to the corrosive damage-over-time and slowdown effect of direct hits.',
+      },
+      {
+        name: 'AG Mixture',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'ProjectileSpeed',
+        type: 'Clean',
+        price: {
+          credits: 7800,
+          croppa: 60,
+          jadiz: 105,
+          umanite: 140,
+        },
+        effects: {
+          buffs: ['+15% Projectile Velocity', '-75% Gravity on Projectiles'],
+          nerfs: [],
+        },
+        description:
+          'Anti-gravity pellets suspended in the sludge let the projectiles fly farther and faster.',
+      },
+      {
+        name: 'Volatile Impact Mixture',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Damage',
+        type: 'Balanced',
+        price: {
+          credits: 8500,
+          bismor: 120,
+          jadiz: 75,
+          magnite: 100,
+        },
+        effects: {
+          buffs: [
+            '+10 Regular Shot Area Damage',
+            '+20 Charged Shot Area Damage',
+          ],
+          nerfs: ['-50% Corrosive DoT Duration', '-50% Sludge Puddle Duration'],
+        },
+        description:
+          'Special mixture increases immediate projectile damage, but at the cost of the duration of its corrosive and slowdown effects. The puddle lifetime are also halved as the volatile compound evaporates much faster.',
+      },
+      {
+        name: 'Disperser Compound',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'AreaDamage',
+        type: 'Balanced',
+        price: {
+          credits: 8800,
+          jadiz: 135,
+          magnite: 100,
+          umanite: 60,
+        },
+        effects: {
+          buffs: ['+6 Charged Shot Fragments', '+5 Fragment Area Damage'],
+          nerfs: ['-20 Charged Shot Area Damage'],
+        },
+        description:
+          'Charged shots break apart into more fragments on impact, and each fragment is more potent. However, the initial damage of the charged projectile impact is reduced.',
+      },
+      {
+        name: 'Goo Bomber Special',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Special',
+        type: 'Unstable',
+        price: {
+          credits: 7450,
+          enorPearl: 90,
+          jadiz: 140,
+          umanite: 65,
+        },
+        effects: {
+          buffs: [
+            'Charged Shot Drops Fragments While Flying',
+            '+5 Fragment Area Damage',
+            '+50% Charged Shot Fragments',
+            '+33% Sludge Puddle Duration',
+          ],
+          nerfs: ['Charged Shot Creates No Fragments on Impact'],
+        },
+        description:
+          "The addition of finely tuned timed separation compounds cause the charged shots to leave a trail of sludge as they fly through the air. However, the projectile's mass is depleted as it flies, dealing less impact damage as its fragments fall off and completely dissipating once all its fragments are dropped",
+      },
+      {
+        name: 'Sludge Blast',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'ShotgunPellet', // TODO: Get Shotgun Blast Icon
+        type: 'Unstable',
+        price: {
+          credits: 8200,
+          jadiz: 100,
+          magnite: 120,
+          umanite: 60,
+        },
+        effects: {
+          buffs: ['+Sludge Blast', '+100% Charged Shot Velocity'],
+          nerfs: [
+            '-60% Charged Shot Area Damage',
+            '+20% Charge Time',
+            '-20% Magazine Size',
+            '-20% Max Ammo',
+            '+0.6s Reload Time',
+          ],
+        },
+        description:
+          'The charged shot cohesion is disrupted upon firing, instantly shooting out fragments in a shotgun-like blast. While spectacular, the modifications result in reduced magazine size and ammo capacity and an extended reload process.',
+      },
+    ],
     'Subata 120': [
       {
         name: 'Chain Hit',
@@ -680,6 +807,119 @@ export const Overclocks: Overclocks = {
         },
         description:
           'Shoot a turret to turn it into the epicenter of an electric explosion! The bullet modifications unfortunately also lower the direct damage and magazine size.',
+      },
+    ],
+    'LOK-1 Smart Rifle': [
+      {
+        name: 'Eraser',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'ClipSize',
+        type: 'Clean',
+        price: {
+          credits: 8000,
+          croppa: 135,
+          enorPearl: 90,
+          magnite: 70,
+        },
+        effects: {
+          buffs: ['+12 Magazine Size', '+33% Max Targets'],
+          nerfs: [],
+        },
+        description:
+          'Clean up the caves with an extended magazine, combined with the ability to acquire more locks.',
+      },
+      {
+        name: 'Armor Break Module',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Special', // TODO: Add Armor Break Icon
+        type: 'Clean',
+        price: {
+          credits: 7850,
+          croppa: 125,
+          magnite: 90,
+          umanite: 80,
+        },
+        effects: {
+          buffs: ['More Damage vs. Armor When Fully Locked'],
+          nerfs: [],
+        },
+        description:
+          'Shots do extra damage against armor when all locks are engaged. (+1250% Armor Breaking)',
+      },
+      {
+        name: 'Explosive Chemical Rounds',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Explosion',
+        type: 'Balanced',
+        price: {
+          credits: 8500,
+          croppa: 65,
+          jadiz: 130,
+          magnite: 95,
+        },
+        effects: {
+          buffs: ['+Explosive Chemical Rounds'],
+          nerfs: ['-5 Damage', '-36 Max Ammo'],
+        },
+        description:
+          'Every enemy with at least three locks triggers an explosion on the last shot.',
+      },
+      {
+        name: 'Seeker Rounds',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Aim',
+        type: 'Balanced',
+        price: {
+          credits: 8150,
+          bismor: 60,
+          magnite: 135,
+          umanite: 95,
+        },
+        effects: {
+          buffs: ['+Seeker Rounds', '+33% Lose Lock Threshold'],
+          nerfs: ['-47% Burst Fire Rate', '+0.5s Reload Time'],
+        },
+        description:
+          'Locked shots will always hit their target, even finding their way around heavy armor. The system can also maintain locks at more extreme angles. However, the extra processing load reduces the rate of fire for locked shots, and more care must be taken when reloading the advanced rounds.',
+      },
+      {
+        name: 'Executioner',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Aim', //TODO: Get Weakspot icon
+        type: 'Unstable',
+        price: {
+          credits: 8750,
+          enorPearl: 130,
+          jadiz: 105,
+          magnite: 65,
+        },
+        effects: {
+          buffs: [
+            '+50% Weakpoint Damage Bonus at Full Lock',
+            '-50% Lock-On Time',
+          ],
+          nerfs: ['-12 Max Ammo', '-12 Magazine Size', '-33% Max Targets'],
+        },
+        description:
+          'Tweaks to the firing control mechanism and camera software bring lightning-fast lock acquisition and more weakspot damage when all locks are engaged. However, the max number of locks is reduced, as is the magazine size and total ammo capacity.',
+      },
+      {
+        name: 'Neuro-Lasso',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Slowdown',
+        type: 'Unstable',
+        price: {
+          credits: 8950,
+          croppa: 125,
+          magnite: 80,
+          umanite: 100,
+        },
+        effects: {
+          buffs: ['+Slowdown Locked Targets'],
+          nerfs: ['+50% Lock-On Time', 'Lock-On Duration Limited to 5.0s'],
+        },
+        description:
+          'Slow down enemies by locking on to them: the more locks, the slower an enemy gets! The downside is a slower lock-on rate, and the locks can only be maintained for a short time before the system resets.',
       },
     ],
     'Deepcore 40mm PGL': [
@@ -1175,6 +1415,153 @@ export const Overclocks: Overclocks = {
           'Channel your inner war criminal by mixing some neurotoxin into the explosive compound. The rounds deal less direct damage and splash damage, but affected bugs move slower and take lots of damage over time.',
       },
     ],
+    '"Hurricane" Guided Rocket System': [
+      {
+        name: 'Manual Guidance Cutoff',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'SpinningLinecutter',
+        type: 'Clean',
+        price: {
+          credits: 7050,
+          bismor: 75,
+          jadiz: 105,
+          umanite: 130,
+        },
+        effects: {
+          buffs: ['+Manual Guidance System', '+33% Max Projectile Velocity'],
+          nerfs: [],
+        },
+        description:
+          "New guidance system that disables missile guidance while the trigger is released. It's also lighter so the missiles can reach a higher top speed!",
+      },
+      {
+        name: 'Overtuned Feed Mechanism',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'FireRate',
+        type: 'Clean',
+        price: {
+          credits: 8950,
+          croppa: 65,
+          jadiz: 105,
+          magnite: 130,
+        },
+        effects: {
+          buffs: ['+20% Max Velocity', '+1 Rate of Fire'],
+          nerfs: [],
+        },
+        description:
+          'With some slight tinkering, both your weapon and projectiles are faster.',
+      },
+      {
+        name: 'Fragmentation Missiles',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Area',
+        type: 'Clean',
+        price: {
+          credits: 7150,
+          bismor: 100,
+          croppa: 135,
+          jadiz: 60,
+        },
+        effects: {
+          buffs: ['+2 Area Damage', '+0.5m AoE Radius'],
+          nerfs: [],
+        },
+        description:
+          'With a thicker casing, your missiles spread more fragments at higher speeds, increasing AoE efficiency.',
+      },
+      {
+        name: 'Plasma Burster Missiles',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Distance', // TODO: Get Bullet Penetration Icon
+        type: 'Balanced',
+        price: {
+          credits: 8500,
+          croppa: 105,
+          enorPearl: 80,
+          umanite: 140,
+        },
+        effects: {
+          buffs: ['+Plasma Burster Missiles', '+30% Turn Rate'],
+          nerfs: [
+            '-75% Direct Damage',
+            '-50% Area Damage',
+            '-50% AoE Radius',
+            '-25% Max Velocity',
+            '-108 Max Ammo',
+          ],
+        },
+        description:
+          "Turn the battlefield into a plasma apocalypse with these penetrating multi-burst missiles! They fly slower, don't hit as hard, and there is a limit to how many can be controlled at one time, but in the right hands even a single missile can do a lot of damage.",
+      },
+      {
+        name: 'Minelayer System',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Special',
+        type: 'Balanced',
+        price: {
+          credits: 7500,
+          bismor: 80,
+          croppa: 125,
+          enorPearl: 90,
+        },
+        effects: {
+          buffs: ['+Minelayer System'],
+          nerfs: ['Missiles Cannot Be Guided', '-36 Max Ammo'],
+        },
+        description:
+          'When your missiles hit the ground, they are planted as mines that explode when damaged or when enemies are in close proximity. Keep in mind that the new warheads do not have guidance. The total ammo capacity is also reduced.',
+      },
+      {
+        name: 'Jet Fuel Homebrew',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'ProjectileSpeed',
+        type: 'Unstable',
+        price: {
+          credits: 7250,
+          bismor: 70,
+          jadiz: 130,
+          umanite: 130,
+        },
+        effects: {
+          buffs: [
+            '+150% Direct Damage',
+            '+50% Max Velocity',
+            'Projectiles Start at Max Velocity',
+          ],
+          nerfs: [
+            '-50% Area Damage',
+            '-0.5m AoE Radius',
+            '-25% Magazine Size',
+            '-72 Max Ammo',
+          ],
+        },
+        description:
+          "Grandpa's recipe: Highly unstable and heavy, but works like a charm! Your missiles get a much higher top speed and reach it instantly. The extra energy greatly improves direct damage, but all that extra fuel reduces the missile's payload capacity. Due to the extra weight, both magazine and total ammo capacity are also reduced.",
+      },
+      {
+        name: 'Salvo Module',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'ShotgunPellet', // TODO: Get Shotgun Blast Icon
+        type: 'Unstable',
+        price: {
+          credits: 8650,
+          enorPearl: 65,
+          jadiz: 110,
+          umanite: 130,
+        },
+        effects: {
+          buffs: [
+            '+Charged Missile Salvo',
+            'Increased Damage per Loaded Missile',
+            'Increased Loaded Missile Velocity',
+          ],
+          nerfs: ['Salvo Missiles Cannot Be Guided'],
+        },
+        description:
+          'Enables your weapon to load up to nine missiles and launch them all at once! As an added bonus, the overloaded exhaust ports increase missile velocity and boost damage based on how many missiles are in the salvo. However, the missiles in the salvo cannot be guided.',
+      },
+    ],
     '"Bulldog" Heavy Revolver': [
       {
         name: 'Chain Hit',
@@ -1667,6 +2054,147 @@ export const Overclocks: Overclocks = {
         },
         description:
           "Takes the M1000's focus mode to the extreme by supercooling the rounds before firing to improve their acceleration through the coils, but the extra coolant in the clips limits how much ammo you can bring.",
+      },
+    ],
+    'DRAK-25 Plasma Carbine': [
+      {
+        name: 'Impact Deflection',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Ricochet',
+        type: 'Clean',
+        price: {
+          credits: 7950,
+          croppa: 60,
+          jadiz: 140,
+          umanite: 105,
+        },
+        effects: {
+          buffs: ['+1 Projectile Bounce'],
+          nerfs: [],
+        },
+        description:
+          'Tinkering with the particle density makes your projectiles react on impact with armor and surfaces, making it bounce up to two times!',
+      },
+      {
+        name: 'Thermal Liquid Coolant',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Cooldown',
+        type: 'Clean',
+        price: {
+          credits: 8100,
+          bismor: 75,
+          enorPearl: 105,
+          umanite: 130,
+        },
+        effects: {
+          buffs: ['+25 Cooling Rate', '-15% Heat per Shot'],
+          nerfs: [],
+        },
+        description:
+          'With a liquid coolant fitted to the weapons thermal system, it dissipates heat more efficiently, accelerating its cooling rate and reducing heat generated per shot.',
+      },
+      {
+        name: 'Rewiring Mod',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Ammo',
+        type: 'Balanced',
+        price: {
+          credits: 8200,
+          bismor: 130,
+          croppa: 65,
+          jadiz: 110,
+        },
+        effects: {
+          buffs: ['Regenerate Ammo While Overheated'],
+          nerfs: ['+30% Overheat Duration', '-40% Battery Capacity'],
+        },
+        description:
+          'By rewiring the thermal systems into a secondary cell and connecting it to the primary battery, your weapon can convert the energy from overheating into ammo. However, this reduces the maximum capacity of the primary battery significantly.',
+      },
+      {
+        name: 'Aggressive Venting',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Special',
+        type: 'Balanced',
+        price: {
+          credits: 8000,
+          bismor: 130,
+          croppa: 95,
+          enorPearl: 80,
+        },
+        effects: {
+          buffs: ['AoE Burn Upon Overheating', '-0.8s Overheat Duration'],
+          nerfs: ['-160 Battery Capacity', '-30% Cooling Rate'],
+        },
+        description:
+          'Directional vents burn everything around you and send enemies running when the weapon overheats. It also reduces the overheat recovery time. Unfortunately the battery size has to be reduced, and the passive cooling suffers as well.',
+      },
+      {
+        name: 'Overtuned Particle Accelerator',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Damage',
+        type: 'Unstable',
+        price: {
+          credits: 7200,
+          bismor: 100,
+          jadiz: 65,
+          umanite: 120,
+        },
+        effects: {
+          buffs: ['+8 Direct Damage'],
+          nerfs: [
+            '-20% Battery Capacity',
+            '+50% Heat per Shot',
+            'Increased Base Spread',
+          ],
+        },
+        description:
+          'The particle accelerator has been tuned way over safety standards to push the damage output to the limit! The modifications comes with the price increased heat generation and decreased overall stability. (+400% Horizontal / +133% Vertical Base Spread)',
+      },
+      {
+        name: 'Shield Battery Booster',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Damage', // TODO: Get Shield Boost Icon
+        type: 'Unstable',
+        price: {
+          credits: 8850,
+          bismor: 65,
+          jadiz: 120,
+          magnite: 105,
+        },
+        effects: {
+          buffs: [
+            'Full Shield Boosts Damage and Velocity',
+            '+1 Rate of Fire',
+            '+50 Battery Capacity',
+          ],
+          nerfs: [
+            '-50% Cooling Rate',
+            '+50% Heat per Shot',
+            '+100% Overheat Duration',
+            'Overheating Disables Shield',
+          ],
+        },
+        description:
+          'Plugging your shield directly into the weapon battery boosts the plasma feed and density significantly while at full shield and improves total ammo and rate of fire at all times. However, the extra energy generates more heat, and overheating the weapon will short-circuit your shield.',
+      },
+      {
+        name: 'Thermal Exhaust Feedback',
+        id: 'GUIDGUIDGUIDGUIDGUIDGUIDGUIDGUID',
+        icon: 'Heat',
+        type: 'Unstable',
+        price: {
+          credits: 7500,
+          bismor: 140,
+          jadiz: 100,
+          umanite: 75,
+        },
+        effects: {
+          buffs: ['Up to +6 Damage When Above 50% Heat'],
+          nerfs: ['+50% Overheat Duration', '+20% Heat per Shot'],
+        },
+        description:
+          'Feeding the thermal exhaust back into the system transfers the heat generated after a 50% threshold back into the plasma, making it increasingly hot. The modifications means more heat generated, and it takes longer to vent when overheating.',
       },
     ],
     'Jury-Rigged Boomstick': [
